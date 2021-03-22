@@ -1,7 +1,10 @@
+import 'package:dart_learn/iterable.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
+
+  Iterable.funcTest();
 }
 
 class MyApp extends StatelessWidget {
